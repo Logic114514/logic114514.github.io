@@ -19,9 +19,9 @@ body {
 
 .lingtang-text {
   writing-mode: vertical-rl;
-  margin: 0 50px;
+  margin: 0 100px;
 
-  font-size: 130px;
+  font-size: 150px;
   color:rgba(255,0,0,0.55);
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 40px rgba(255,0,0,0.75), 0 0 70px rgba(255,0,0,0.80);
 }
