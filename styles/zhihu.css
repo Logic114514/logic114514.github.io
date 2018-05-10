@@ -17,11 +17,30 @@ body {
   text-align: center;
 }
 
-.lingtang-text {
-  writing-mode: vertical-rl;
-  margin: 0 100px;
+#lingtang-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.wanlian-title {
+  font-size: 600%;
+  flex-basis: 20%;
+}
+
+.wanlian-text {
+  margin: 0 100px;
+  padding: 30px;
+
+  border: 5px groove rgb(180, 180, 180);
+  border-radius: 5px;
+  box-shadow: 7.5px 7.5px 5px rgb(114, 114, 114);
+  
+  writing-mode: vertical-rl;
   font-size: 150px;
+}
+
+.lingtang-text {
   color:rgba(255,0,0,0.55);
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 40px rgba(255,0,0,0.75), 0 0 70px rgba(255,0,0,0.80);
 }
