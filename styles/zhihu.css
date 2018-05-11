@@ -35,12 +35,13 @@ body {
   border: 5px groove rgb(180, 180, 180);
   border-radius: 5px;
   box-shadow: 7.5px 7.5px 5px rgb(114, 114, 114);
-  
+
   writing-mode: vertical-rl;
-  font-size: 150px;
+  font-size: 115px;
 }
 
 .lingtang-text {
+  letter-spacing: 0.25em;
   color:rgba(255,0,0,0.55);
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 40px rgba(255,0,0,0.75), 0 0 70px rgba(255,0,0,0.80);
 }
