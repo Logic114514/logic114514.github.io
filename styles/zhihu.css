@@ -56,7 +56,7 @@ img {
 
 @media screen and (max-width: 900px) {
   #img-dian { margin: auto 3vw; width: 20vw; }
-  #img-deadadmin { margin: auto 4.5vw; width: 45vw; }
+  #img-deadadmin { margin: auto 4vw; width: 45vw; }
 
   #lt-title {
     font-size: 8vw;
