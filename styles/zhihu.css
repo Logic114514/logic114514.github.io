@@ -7,89 +7,64 @@ img {
   max-width: 100%;
 }
 
+#img-dian { margin: auto 3vw; }
+#img-deadadmin { margin: auto 5vw;  }
+
 .header {
   color: rgb(255,255,255);
   background-color: rgb(114,114,114);
   text-align: center;
 }
 
-#lingtang {
-  text-align: center;
-}
-
-#lingtang-title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#lingtang-space {
-  height: 30px;
-}
-
-.wanlian-title {
-  font-size: 600%;
-  flex-basis: 20%;
-}
-
-.wanlian-text {
-  margin: auto 10%;
-  padding: 2%;
-
-  border: 5px groove rgb(180, 180, 180);
-  border-radius: 5px;
-  box-shadow: 7.5px 7.5px 5px rgb(114, 114, 114);
-
-  writing-mode: vertical-rl;
-  font-size: 690%;
-}
-
-.lingtang-text {
-  letter-spacing: 0.25em;
-  color:rgba(255,0,0,0.55);
+.text {
+  letter-spacing: .25em;
+  color: rgba(255,0,0,.55);
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 40px rgba(255,0,0,0.75), 0 0 70px rgba(255,0,0,0.80);
 }
 
-/* Pads */
-@media screen and (min-device-width: 600px) and (max-device-width: 900px) {
-  .wanlian-title {
-    font-size: 400%;
-    flex-basis: 25%;
-  }
-
-  .wanlian-text {
-    margin: 0 5%;
-    font-size: 420%;
-  }
-
-  #img-dian {
-    width: 20%;
-  }
-
-  #img-deadadmin {
-    width: 40%;
-  }
+#lt {
+  text-align: center;
 }
 
-/* Mobile Phone */
-@media screen and (max-device-width: 600px) {
-  .wanlian-title {
-    font-size: 200%;
-    flex-basis: 30%;
+#lt-title {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+
+  -ms-align-items: center;
+  align-items: center;
+
+  justify-content: center;
+
+  font-size: 5vw;
+}
+
+#lt-space { height: 4vh; }
+
+.lt-text {
+  writing-mode: vertical-rl;
+  font-size: 6vw;
+
+  border: 5px groove rgb(180,180,180);
+  border-radius: 5px;
+  -webkit-box-shadow: 7.5px 7.5px 5px rgb(114, 114, 114);
+  box-shadow: 7.5px 7.5px 5px rgb(114, 114, 114);
+  padding: 1.5vw;
+}
+
+@media screen and (max-width: 900px) {
+  #img-dian { margin: auto 3vw; width: 20vw; }
+  #img-deadadmin { margin: auto 4.5vw; width: 45vw; }
+
+  #lt-title {
+    font-size: 8vw;
   }
 
-  .wanlian-text {
-    margin: 0 3%;
-    padding: 3%;
+  .lt-text {
+    font-size: 9vw;
+    padding: 3vw;
     border: 3px groove rgb(180, 180, 180);
-    font-size: 200%;
-  }
-
-  #img-dian {
-    width: 20%;
-  }
-
-  #img-deadadmin {
-    width: 45%;
   }
 }
